@@ -8,7 +8,7 @@ final class CameraMoveDemoViewController: GenericDemoViewController {
     private let buttonContainer = UIStackView()
 
     private let position1 = CLLocationCoordinate2D(latitude: 25.033976, longitude: 121.561964)
-    private let position2 = CLLocationCoordinate2D(latitude: 24.626516, longitude: 122.269514)
+    private let position2 = CLLocationCoordinate2D(latitude: 24.157552, longitude: 120.66603)
 
     private var isInitPosition = true
     private var cameraUpdateAnimation: IgmCameraUpdateAnimation = .fly

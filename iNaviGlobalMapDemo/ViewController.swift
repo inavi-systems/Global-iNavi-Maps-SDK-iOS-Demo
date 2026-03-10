@@ -19,7 +19,7 @@ final class ViewController: UIViewController {
         DemoSection(title: "Map", items: ["MapView"]),
         DemoSection(title: "Shape", items: ["Marker", "Marker Overlap", "infoWindow", "Polygon", "PolyLine", "Circel", "Global Z-Index"]),
         DemoSection(title: "Clustering", items: ["Marker Clustering"]),
-        DemoSection(title: "Camera", items: ["Camera Move", "CameraUpdateParams", "Camera Move to Fit Bounds", "Camera Events"]),
+        DemoSection(title: "Camera", items: ["Camera Move", "Camera Move to Fit Bounds", "Camera Events"]),
         DemoSection(title: "Click Events", items: ["Map Click", "Shape Click"]),
         DemoSection(title: "Location", items: ["User Tracking Mode", "Location Icon"]),
         DemoSection(title: "Misc", items: ["Projection", "Coordinates Conversion"])
@@ -106,7 +106,6 @@ private enum DemoViewControllerFactory {
         case "Global Z-Index": return GlobalZIndexDemoViewController()
         case "Marker Clustering": return MarkerClusteringDemoViewController()
         case "Camera Move": return CameraMoveDemoViewController()
-        case "CameraUpdateParams": return CameraUpdateParamsDemoViewController()
         case "Camera Move to Fit Bounds": return CameraFitBoundsDemoViewController()
         case "Camera Events": return CameraEventsDemoViewController()
         case "Map Click": return MapClickDemoViewController()

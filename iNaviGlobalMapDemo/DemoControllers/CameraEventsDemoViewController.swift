@@ -8,7 +8,7 @@ final class CameraEventsDemoViewController: GenericDemoViewController {
     private let buttonContainer = UIView()
 
     private let position1 = CLLocationCoordinate2D(latitude: 25.033976, longitude: 121.561964)
-    private let position2 = CLLocationCoordinate2D(latitude: 24.626516, longitude: 122.269514)
+    private let position2 = CLLocationCoordinate2D(latitude: 24.157552, longitude: 120.66603)
     private let labelTextFormat = "Status : %@\nPosition : (%.5f, %.5f)\nZoom Level : %.2f\nTilt : %.2f\nBearing : %.2f"
 
     private var isInitPosition = true
